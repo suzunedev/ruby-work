@@ -1,0 +1,25 @@
+AllCops:
+  TargetRubyVersion: 3.1
+  NewCops: enable
+Layout/LineLength:
+  Enabled: false
+Style/StringLiterals:
+  EnforcedStyle: "double_quotes"
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/SymbolArray:
+  Enabled: false
+Style/EmptyMethod:
+  Enabled: false
+Style/AsciiComments:
+  Enabled: false
+Style/WordArray:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
