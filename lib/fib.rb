@@ -1,11 +1,8 @@
-def fib(n)
-  if n == 0
-    return 0
-  elsif n == 1
-    return 1
-  else
-    fib(n-1) + fib(n-2)
-  end
+def fib(number)
+  return 0 if number.zero?
+  return 1 if number == 1
+
+  fib(number - 1) + fib(number - 2)
 end
 
 if __FILE__ == $PROGRAM_NAME
