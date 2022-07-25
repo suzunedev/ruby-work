@@ -1,6 +1,6 @@
-def foo(x)
-  if x > 10
-    x.to_s
+def foo(xxx)
+  if xxx > 10
+    xxx.to_s
   else
     nil
   end

@@ -21,6 +21,8 @@ Style/ClassAndModuleChildren:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
+Style/EmptyElse:
+  Enabled: false
 Bundler/OrderedGems:
   Enabled: false
 Metrics/AbcSize:
